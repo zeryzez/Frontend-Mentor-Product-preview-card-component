@@ -12,7 +12,10 @@
 body{
 
     background-color: hsl(30, 38%, 92%);
-    padding: 25px;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
 }
 
 .container{
@@ -109,4 +112,8 @@ button img {
     position: absolute;
     width: 15px;
     
+}
+
+button:active{
+    background-color: hsl(158, 38%, 19%);
 }
